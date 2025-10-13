@@ -1,0 +1,6 @@
+ls -> lista todos os arquivos e pastas de onde você está
+ls -a -> revela arquivos ocultos
+cd -> muda você de diretório (ex: cd Desktop vai para desktop)
+cd .. -> voltar para o diretório anterior
+pwd -> mostra o caminho absoluto de onde estou (ex: /c/Users/thiag/Desktop)
+mkdir -> criar uma pasta nova (ex: mkdir curso_git_2025)
