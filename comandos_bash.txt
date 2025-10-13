@@ -1,6 +1,33 @@
 ls -> lista todos os arquivos e pastas de onde você está
+
 ls -a -> revela arquivos ocultos
+
 cd -> muda você de diretório (ex: cd Desktop vai para desktop)
+
 cd .. -> voltar para o diretório anterior
+
 pwd -> mostra o caminho absoluto de onde estou (ex: /c/Users/thiag/Desktop)
+
 mkdir -> criar uma pasta nova (ex: mkdir curso_git_2025)
+
+cat -> mostra o que tem dentro do arquivo (ex: cat comandos_bash.txt)
+
+git init . -> transforma a pasta onde você está em um repositório de git
+
+rm -> remove arquivo ou diretório
+
+rm -rf -> não vai te pedir confirmação e vai apagar todas subpastas, recursivamente (ex: rm -rf  .git/)
+
+COMANDOS GIT
+
+git status -> mostra o status do diretório git
+
+git add -> adicionar o que quer que vá para o commit (checkpoint)
+
+git commit -m "[mensagem]" -> cria o commit (checkpoin) e cria uma descrição para o mesmo (ex: git commit -m "primeiros comandos bash")
+
+git config --global user.email "[email]" -> vai criar o email do usuário que irá assinar os commits feitos (ex: git config --global user.email "thiagolscardoso@hotmail.com")
+
+git config --global user.name "[name]" -> vai criar o email do usuário que irá assinar os commits feitos (ex: git config --global user.email "Thiago Luz")
+
+nano -> comando para editar texto dentro do terminal git bash (ex: nano comandos_bash.txt)
