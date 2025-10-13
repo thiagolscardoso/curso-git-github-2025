@@ -16,18 +16,6 @@ git init . -> transforma a pasta onde você está em um repositório de git
 
 rm -> remove arquivo ou diretório
 
-rm -rf -> não vai te pedir confirmação e vai apagar todas subpastas, recursivamente (ex: rm -rf  .git/)
-
-COMANDOS GIT
-
-git status -> mostra o status do diretório git
-
-git add -> adicionar o que quer que vá para o commit (checkpoint)
-
-git commit -m "[mensagem]" -> cria o commit (checkpoin) e cria uma descrição para o mesmo (ex: git commit -m "primeiros comandos bash")
-
-git config --global user.email "[email]" -> vai criar o email do usuário que irá assinar os commits feitos (ex: git config --global user.email "thiagolscardoso@hotmail.com")
-
-git config --global user.name "[name]" -> vai criar o email do usuário que irá assinar os commits feitos (ex: git config --global user.email "Thiago Luz")
+rm -rf -> remove de forma recursiva e forçada todos diretórios (ex: rm -rf  .git/)
 
 nano -> comando para editar texto dentro do terminal git bash (ex: nano comandos_bash.txt)

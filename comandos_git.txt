@@ -1,4 +1,11 @@
-git init . -> cria um repo git na pasta atual
-git status -> mostra o status do trabalho (de cada arquivo)
-git commit -m -> faz commit do que estava para ser commitado
-git add nome_arquivo -> adiciona arquivo para ser commitado
+git status -> mostra o status do diretório git
+
+git add -> adicionar o que quer que vá para o commit (checkpoint)
+
+git commit -m "[mensagem]" -> cria o commit (checkpoin) e cria uma descrição para o mesmo (ex: git commit -m "primeiros comandos bash")
+
+git config --global user.email "[email]" -> vai criar o email do usuário que irá assinar os commits feitos (ex: git config --global user.email "thiagolscardoso@hotmail.com")
+
+git config --global user.name "[name]" -> vai criar o email do usuário que irá assinar os commits feitos (ex: git config --global user.email "Thiago Luz")
+
+git log -> mostra todo o histórico de commit (checkpoint)
